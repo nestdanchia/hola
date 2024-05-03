@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es-ES">
+
+<head>
+  <title>Prueba de Bootstrap</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="utf-8">
+      <link href="cssLocal/estilo.css"
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+ <!-- 
+col-xs-*               e(x)tra (s)mall
+  col-sm-*               (sm)all
+  col-md-*               (m)e(d)ium
+  col-lg-*               (l)ar(g)e
+ 
+ -->
+<body>
+  
+  <div class="container"   style="background-color:#e9a7a7">
+    <h1>Hola mundo en Bootstrap 5</h1>
+    <!doctype html>
+    <html>
+    <head>
+      <title>Prueba de Bootstrap 5</title> 
+      
+    </head>
+    <body>
+      <!-- 
+       Debemos utilizar la clase "row" para indicar el comienzo de una fila. 
+       Dentro de la fila dispondremos tantos div como columnas tenga dicha fila. 
+       Para indicar cada columna debemos utilizar la siguiente sintaxis
+        para cada columna col-xxl-*
+        Donde aparece el asterisco lo remplazamos por un valor entre 1 y 12 
+        (en nuestro ejemplo hemos dispuesto un 4, esto quiere
+         decir que quedan 8 unidades de columna para repartir entre las
+          otras columnas siempre la suma de dichos valores de una fila debe sumar 12 )
+
+
+       -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-4" >
+            <h1>Columna 1</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+          <div class="col-xxl-4"  >
+            <h1>Columna 2</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+          <div class="col-xxl-4"  >
+            <h1>Columna 3</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+        </div>
+    <!-- 
+
+      el mouse achicamos la ventana y veremos que cuando el ancho del navegador
+       es menor a 1400 px colapsan las columnas de la primer fila y 
+       se muestran una debajo de otra 
+      (esto sucede en cualquier dispositivo cuyo ancho en píxeles es menor a 1400):
+     -->
+        <hr>
+    
+        <div class="row">
+          <div class="col-xl-4"  style="background-color:#d7e0ef">
+            <h1>Columna 1</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+          <div class="col-xl-4"  style="background-color:#c8e3ee">
+            <h1>Columna 2</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+          <div class="col-xl-4"  style="background-color:#caddf1">
+            <h1>Columna 3</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+        </div>
+    
+        <hr>
+      
+        <div class="row">
+          <div class="col-lg-4"  style="background-color:#aaa">
+            <h1>Columna 1</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+          <div class="col-lg-4"  style="background-color:#bbb">
+            <h1>Columna 2</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+          <div class="col-lg-4"  style="background-color:#ccc">
+            <h1>Columna 3</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+        </div>
+    
+        <hr>
+    
+        <div class="row">
+          <div class="col-md-4"  style="background-color:#aaa">
+            <h1>Columna 1</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+          <div class="col-md-4"  style="background-color:#bbb">
+            <h1>Columna 2</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+          <div class="col-md-4"  style="background-color:#ccc">
+            <h1>Columna 3</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+        </div>
+    
+        <hr>
+    
+        <div class="row">
+          <div class="col-sm-4"  style="background-color:#aaa">
+            <h1>Columna 1</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+          <div class="col-sm-4"  style="background-color:#bbb">
+            <h1>Columna 2</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+          <div class="col-sm-4"  style="background-color:#ccc">
+            <h1>Columna 3</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+        </div>
+    
+        <hr>
+    
+        <div class="row">
+          <div class="col-4"  style="background-color:#edefc6">
+            <h1>Columna 1</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+          <div class="col-4"  style="background-color:#f5f6d5">
+            <h1>Columna 2</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+          <div class="col-4"  style="background-color:#f2f5d3">
+            <h1>Columna 3</h1> 
+            <p>Esto es una prueba de bootstrap.</p>
+          </div>
+        </div>
+    
+      </div> 
+    </body>
+    </html>
+    
+    
+
+
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"></script>
+
+  </div>
+</body>
